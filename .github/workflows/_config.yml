@@ -1,0 +1,47 @@
+title: "Anagha Shevade"
+description: "AI Enablement + Analytics — case studies, concepts, and projects"
+url: "https://anaghashevade.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air"
+
+plugins:
+  - jekyll-include-cache
+
+collections:
+  case_studies:
+    output: true
+    permalink: /case-studies/:name/
+  concepts:
+    output: true
+    permalink: /concepts/:name/
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: case_studies
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+  - scope:
+      path: ""
+      type: concepts
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+
+include:
+  - _pages
