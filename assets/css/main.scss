@@ -1,0 +1,19 @@
+---
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'air' }}";
+@import "minimal-mistakes";
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 18px;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  background: #fff;
+}
