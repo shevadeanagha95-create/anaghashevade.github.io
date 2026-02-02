@@ -1,7 +1,7 @@
 title: "Anagha Shevade"
 description: "AI Enablement + Analytics — case studies, concepts, and projects"
-url: "https://anaghashevade.github.io"
-baseurl: ""
+url: "https://shevadeanagha95-create.github.io"
+baseurl: "/anaghashevade.github.io"
 markdown: kramdown
 highlighter: rouge
 remote_theme: "mmistakes/minimal-mistakes"
