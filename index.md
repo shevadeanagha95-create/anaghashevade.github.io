@@ -14,7 +14,7 @@ excerpt: "I build governed analytics systems—and enable teams to use GenAI saf
 feature_row:
   - image_path: /assets/images/tile_case_studies.jpg
     title: "Case Studies"
-    excerpt: "Root-cause analysis, investigation playbooks, and controls-friendly decision-making."
+    excerpt: "Investigation playbooks, root-cause analysis, and controls-ready decision-making."
     url: /case-studies/
     btn_label: "Explore"
     btn_class: "btn--primary"
@@ -32,18 +32,18 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
-## What I’m doing now
+## What I’m building
 <div class="card-grid">
   <div class="card">
-    <h3>Building</h3>
-    <p>Investigation Copilot (synthetic data) with citations + evaluation.</p>
+    <h3>Enablement</h3>
+    <p>Templates + SOP copilots to help analysts move faster with guardrails.</p>
   </div>
   <div class="card">
-    <h3>Learning</h3>
-    <p>Enterprise GenAI patterns: tool calling, guardrails, evals.</p>
+    <h3>Analytics</h3>
+    <p>Payments reconciliation + variance investigation systems with audit-ready logic.</p>
   </div>
   <div class="card">
-    <h3>Shipping</h3>
-    <p>Controls-ready analytics enablement and self-serve insights.</p>
+    <h3>GenAI</h3>
+    <p>Tool calling + retrieval patterns with lightweight evaluation.</p>
   </div>
 </div>
