@@ -5,7 +5,6 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.55"
   overlay_image: "{{ site.baseurl }}/assets/images/hero.jpg"
-
   actions:
     - label: "View Projects"
       url: /projects/
@@ -19,7 +18,7 @@ feature_row:
     url: /case-studies/
     btn_label: "Explore"
     btn_class: "btn--primary"
- - image_path: "{{ site.baseurl }}/assets/images/tile_concepts.jpg"
+  - image_path: "{{ site.baseurl }}/assets/images/tile_concepts.jpg"
     title: "AI Concepts"
     excerpt: "Clear notes + diagrams on GenAI patterns (RAG, tool calling, evaluation, governance)."
     url: /concepts/
@@ -32,6 +31,7 @@ feature_row:
     btn_label: "See builds"
     btn_class: "btn--primary"
 ---
+
 
 ## What I’m building
 <div class="card-grid">
