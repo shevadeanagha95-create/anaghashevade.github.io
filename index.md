@@ -3,7 +3,7 @@ layout: splash
 title: "AI Enablement + Analytics"
 header:
   overlay_color: "#000"
-  overlay_filter: "0.55"
+  overlay_filter: 0.55
   overlay_image: "{{ site.baseurl }}/assets/images/hero.jpg"
   actions:
     - label: "View Projects"
